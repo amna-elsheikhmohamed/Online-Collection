@@ -1,0 +1,138 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f1ea; /* Light beige background */
+
+    height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #5d4037; /* Brown color for header */
+    margin-bottom: 20px;
+}
+ h3 {
+    text-align: center;
+    font-size: 28px;
+    color: #5d4037; /* Brown color for header */
+    margin-bottom: 20px;
+}
+h2  ,p{
+    /* font-size: 28px; */
+    color: #5d4037; /* Brown color for header */
+    margin-bottom: 20px;
+}
+/* Dropdown Section Styling */
+.dropdown-section {
+    margin-bottom: 30px;
+}
+
+/* Styling for the dropdown menu */
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #d7ccc8; /* Beige border */
+    background-color: #f1e6d7; /* Beige background for dropdown */
+    margin-bottom: 20px;
+}
+
+/* Label Styling */
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+    color: #5d4037; /* Dark brown for text */
+}
+
+/* Creators Section Styling */
+.creators-section div {
+    margin-bottom: 40px;
+}
+
+.creators-section h2 {
+    color: #3e2723; /* Dark brown color */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.creators-section p {
+    color: #6d4c41; /* Medium brown color */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.creators-section select {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #d7ccc8; /* Beige border for the select field */
+    background-color: #f1e6d7; /* Beige background for dropdown */
+}
+
+/* Table Styling for Artworks */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f5f0; /* Very light beige background */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    font-size: 16px;
+    color: #5d4037; /* Brown text color */
+    border-bottom: 1px solid #d7ccc8; /* Beige border */
+}
+
+th {
+    background-color: #6d4c41; /* Dark brown header */
+    color: #ffffff; /* White text for header */
+    font-size: 18px;
+}
+
+td {
+    background-color: #f9f5f0; /* Light beige rows */
+}
+
+td a {
+    text-decoration: none;
+    color: #3e2723; /* Dark brown links */
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for separation line */
+h2 {
+    margin: 10px 0;
+    border-bottom: 2px solid #d7ccc8; /* Beige border for separation line */
+    padding-bottom: 5px;
+}
+
+/* For error messages and no data message */
+#error-message {
+    color: #e64a19; /* Red color for errors */
+    text-align: center;
+    font-size: 18px;
+}

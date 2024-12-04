@@ -1,0 +1,87 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f1ea; /* Light beige background */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #5d4037; /* Brown color for header */
+    margin-bottom: 20px;
+}
+
+/* Info Section Styling */
+.info h2, .info p {
+    color: #5d4037; /* Brown color */
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 5px solid #d7ccc8; /* Beige border for the image */
+    border-radius: 8px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f5f0; /* Very light beige background */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    font-size: 16px;
+    color: #5d4037; /* Brown text color */
+    border-bottom: 1px solid #d7ccc8; /* Beige border */
+}
+
+th {
+    background-color: #6d4c41; /* Dark brown header */
+    color: #ffffff; /* White text for header */
+    font-size: 18px;
+}
+
+td {
+    background-color: #f9f5f0; /* Light beige rows */
+}
+
+td a {
+    text-decoration: none;
+    color: #3e2723; /* Dark brown links */
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Error Message Styling */
+#error-message {
+    color: #e64a19; /* Red color for errors */
+    text-align: center;
+    font-size: 18px;
+}
